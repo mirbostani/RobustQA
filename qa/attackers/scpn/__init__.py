@@ -1,0 +1,1 @@
+from .scpn import SCPNAttacker

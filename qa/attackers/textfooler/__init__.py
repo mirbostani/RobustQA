@@ -1,0 +1,1 @@
+from .textfooler import TextFoolerAttacker
