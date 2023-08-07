@@ -5,7 +5,7 @@ time python robustqa.py \
     --victim_model_or_path "bert-large-uncased-whole-word-masking-finetuned-squad" \
     --victim_tokenizer_or_path "bert-large-uncased-whole-word-masking-finetuned-squad" \
     --dataset squad \
-    --dataset_split "validation[0:1000]" \
+    --dataset_split "validation[0:100]" \
     --truncation_max_length 512 \
     --attack_recipe textfooler \
     --batch_size 8 \

@@ -5,7 +5,7 @@ time python robustqa.py \
     --victim_model_or_path "~/transformers/examples/legacy/question-answering/bert_base_uncased_finetuned_squad_textfooler_adv10" \
     --victim_tokenizer_or_path "~/transformers/examples/legacy/question-answering/bert_base_uncased_finetuned_squad_textfooler_adv10" \
     --dataset squad \
-    --dataset_split "validation[0:1000]" \
+    --dataset_split "validation[0:100]" \
     --truncation_max_length 512 \
     --attack_recipe textfooler \
     --batch_size 8 \
