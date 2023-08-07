@@ -1,10 +1,7 @@
 from .base import AttackMetric
 import numpy as np
 from ...tags import *
-# from ...data_manager import DataManager
 from OpenAttack.data_manager import DataManager
-
-# TODO use a pytorch model instead
 
 
 class UniversalSentenceEncoder(AttackMetric):
