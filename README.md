@@ -46,6 +46,16 @@ Yasaman Boreshban, Seyed Morteza Mirbostani, Seyedeh Fatemeh Ahmadi, Gita Shojae
 }
 ```
 
+## Presentations
+
+**RobustQA Presentation (4 min)**
+
+[![RobustQA](https://img.youtube.com/vi/rC9sFV7n8N8/0.jpg)](https://www.youtube.com/watch?v=rC9sFV7n8N8)
+
+**RobustQA Installation & Usage (2 min 20 sec)**
+
+[![RobustQA Demo](https://img.youtube.com/vi/VHPe5DVXdhw/0.jpg)](https://www.youtube.com/watch?v=VHPe5DVXdhw)
+
 ## Installation
 
 Clone the following repository to your local system:
