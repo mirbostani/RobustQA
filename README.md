@@ -2,6 +2,50 @@
 
 A Framework for Adversarial Text Generation Analysis on Question Answering Systems
 
+## Abstract
+
+Question answering (QA) systems have reached human-level accuracy; however, these systems are not robust enough and are vulnerable to adversarial examples. Recently, adversarial attacks have been widely investigated in text classification. However, there have been few research efforts on this topic in QA. In this article, we have modified the attack algorithms widely used in text classification to fit those algorithms for QA systems. We have evaluated the impact of various attack methods on QA systems at character, word, and sentence levels. Furthermore, we have developed a new framework, named RobustQA, as the first open-source toolkit for investigating textual adversarial attacks in QA systems. RobustQA consists of seven modules: Tokenizer, Victim Model, Goals, Metrics, Attacker, Attack Selector, and Evaluator. It currently supports six different attack algorithms. Furthermore, the framework simplifies the development of new attack algorithms in QA.
+
+## Download PDF
+
+- [https://aclanthology.org/2023.emnlp-demo.24/](https://aclanthology.org/2023.emnlp-demo.24/)
+- [https://aclanthology.org/2023.emnlp-demo.24.pdf](https://aclanthology.org/2023.emnlp-demo.24.pdf)
+
+## Cite
+
+You can cite our paper in your work using the following reference formats:
+
+**ACL Anthology**
+
+```
+Yasaman Boreshban, Seyed Morteza Mirbostani, Seyedeh Fatemeh Ahmadi, Gita Shojaee, Fatemeh Kamani, Gholamreza Ghassem-Sani, and Seyed Abolghasem Mirroshandel. 2023. RobustQA: A Framework for Adversarial Text Generation Analysis on Question Answering Systems. In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing: System Demonstrations, pages 274–285, Singapore. Association for Computational Linguistics.
+```
+
+**BibTeX**
+
+```
+@inproceedings{boreshban-etal-2023-robustqa,
+    title = "{R}obust{QA}: A Framework for Adversarial Text Generation Analysis on Question Answering Systems",
+    author = "Boreshban, Yasaman  and
+      Mirbostani, Seyed Morteza  and
+      Ahmadi, Seyedeh Fatemeh  and
+      Shojaee, Gita  and
+      Kamani, Fatemeh  and
+      Ghassem-Sani, Gholamreza  and
+      Mirroshandel, Seyed Abolghasem",
+    editor = "Feng, Yansong  and
+      Lefever, Els",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing: System Demonstrations",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-demo.24",
+    pages = "274--285",
+    abstract = "Question answering (QA) systems have reached human-level accuracy; however, these systems are not robust enough and are vulnerable to adversarial examples. Recently, adversarial attacks have been widely investigated in text classification. However, there have been few research efforts on this topic in QA. In this article, we have modified the attack algorithms widely used in text classification to fit those algorithms for QA systems. We have evaluated the impact of various attack methods on QA systems at character, word, and sentence levels. Furthermore, we have developed a new framework, named RobustQA, as the first open-source toolkit for investigating textual adversarial attacks in QA systems. RobustQA consists of seven modules: Tokenizer, Victim Model, Goals, Metrics, Attacker, Attack Selector, and Evaluator. It currently supports six different attack algorithms. Furthermore, the framework simplifies the development of new attack algorithms in QA. The source code and documentation of RobustQA are available at https://github.com/mirbostani/RobustQA.",
+}
+```
+
 ## Installation
 
 Clone the following repository to your local system:
