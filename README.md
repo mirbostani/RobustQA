@@ -6,14 +6,14 @@ A Framework for Adversarial Text Generation Analysis on Question Answering Syste
 
 Question answering (QA) systems have reached human-level accuracy; however, these systems are not robust enough and are vulnerable to adversarial examples. Recently, adversarial attacks have been widely investigated in text classification. However, there have been few research efforts on this topic in QA. In this article, we have modified the attack algorithms widely used in text classification to fit those algorithms for QA systems. We have evaluated the impact of various attack methods on QA systems at character, word, and sentence levels. Furthermore, we have developed a new framework, named RobustQA, as the first open-source toolkit for investigating textual adversarial attacks in QA systems. RobustQA consists of seven modules: Tokenizer, Victim Model, Goals, Metrics, Attacker, Attack Selector, and Evaluator. It currently supports six different attack algorithms. Furthermore, the framework simplifies the development of new attack algorithms in QA.
 
-## Download PDF
+## Download Paper
 
 - [https://aclanthology.org/2023.emnlp-demo.24/](https://aclanthology.org/2023.emnlp-demo.24/)
 - [https://aclanthology.org/2023.emnlp-demo.24.pdf](https://aclanthology.org/2023.emnlp-demo.24.pdf)
 
-## Cite
+## How to Cite
 
-You can cite our paper in your work using the following reference formats:
+If you find this work useful to you, please cite:
 
 **ACL Anthology**
 
